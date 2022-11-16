@@ -1,0 +1,46 @@
+#about {
+    justify-content: center;
+}
+
+.about__person {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.about__person .photo {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-img {
+    height: 80%;
+}
+
+.person__info {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 12%;
+}
+
+.person__info .name {
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.person__info .role {
+    margin-top: 1%;
+    font-size: 26px;
+    opacity: 60%;
+}
+
+.person__info .desc {
+    margin-top: 8%;
+    font-size: 30px;
+}

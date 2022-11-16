@@ -1,0 +1,36 @@
+#main {
+    height: calc(100vh - 80px) !important;
+}
+
+.main__logo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__desc {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 6%;
+}
+
+.main__desc .title {
+    position: relative;
+    height: 40%;
+    width: 50%;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.main__desc .title span {
+    position: absolute;
+    bottom: 0;
+}
+
+.main__desc .desc {
+    font-size: 28px;
+    margin-top: 20px;
+}
